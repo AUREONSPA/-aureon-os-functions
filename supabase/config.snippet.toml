@@ -1,0 +1,5 @@
+# Agrega esto a supabase/config.toml de tu repo.
+# El worker se protege con el encabezado x-worker-secret (no con JWT), porque lo invocan
+# pg_cron y otras funciones.
+[functions.sii-worker]
+verify_jwt = false

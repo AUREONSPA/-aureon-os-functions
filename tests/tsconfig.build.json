@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "strict": true,
+    "outDir": "./build",
+    "rootDir": "../supabase/functions",
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true,
+    "skipLibCheck": true,
+    "types": []
+  },
+  "files": [
+    "./stubs.d.ts",
+    "../supabase/functions/_shared/rut.ts",
+    "../supabase/functions/_shared/crypto.ts",
+    "../supabase/functions/_shared/retry.ts",
+    "../supabase/functions/_shared/http.ts",
+    "../supabase/functions/_shared/validate.ts",
+    "../supabase/functions/_shared/sii/types.ts",
+    "../supabase/functions/_shared/sii/mock.ts",
+    "../supabase/functions/_shared/sii/official.ts"
+  ]
+}
